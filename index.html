@@ -1,0 +1,774 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>TrustKey Recovery</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+		<!-- ========================= CSS here ========================= -->
+		<link rel="stylesheet" href="assets/css/bootstrap-5.0.0-alpha-1.min.css">
+        <link rel="stylesheet" href="assets/css/LineIcons.2.0.css">
+		<link rel="stylesheet" href="assets/css/animate.css">
+		<link rel="stylesheet" href="assets/css/main.css">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+        <style>
+            .testimonial-chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.bubble {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    padding: 15px 20px;
+    border-radius: 20px;
+    max-width: 80%;
+    text-align: left;
+    position: relative;
+}
+
+.bubble::before {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 15px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid rgba(255, 255, 255, 0.8);
+    border-right: 10px solid transparent;
+}
+
+.bubble p {
+    color: #fff;
+    font-style: italic;
+}
+
+.bubble h5 {
+    text-align: right;
+    color: #fff;
+    margin-top: 10px;
+}
+
+        </style>
+
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- ========================= preloader start ========================= -->
+            <div class="preloader d-none">
+                <div class="loader">
+                    <div class="ytp-spinner">
+                        <div class="ytp-spinner-container">
+                            <div class="ytp-spinner-rotator">
+                                <div class="ytp-spinner-left">
+                                    <div class="ytp-spinner-circle"></div>
+                                </div>
+                                <div class="ytp-spinner-right">
+                                    <div class="ytp-spinner-circle"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- preloader end -->
+
+        <!-- ========================= header start ========================= -->
+        <header class="header navbar-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <span style="font-family: 'Orbitron', sans-serif; font-size: 28px; font-weight: 700; color: #fff;">TrustKey</span>
+                                <span style="font-family: 'Rajdhani', sans-serif; font-size: 28px; font-weight: 600; color: #fff;">Recovery</span>
+                            </a>
+                                                    
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ml-auto">
+                                    <li class="nav-item">
+                                        <a class="page-scroll active" href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#about">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#service">Service</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#pathway">Steps</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#faq">FAQ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#contact">Contact</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        
+        </header>
+        <!-- ========================= header end ========================= -->
+
+        <!-- ========================= hero-section start ========================= -->
+        <section id="home" class="hero-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-7 col-lg-7">
+                        <div class="hero-content-wrapper">
+                            <h1 class="text-white wow fadeInDown" data-wow-delay=".2s">Recover Your Lost Crypto Wallet & Transactions Easily & Securely</h1>
+                            <p class="text-white wow fadeInLeft"  data-wow-delay=".4s">Lost access to your crypto wallet or stuck with a pending transaction? We provide the simplest and most effective solutions to recover your User ID, password, and lost or stuck transactions. Take back control of your digital assets today!</p>
+                            <a href="#" class="theme-btn wow fadeInUp"  data-wow-delay=".6s">Recover Now</a>
+                        </div>
+                    </div>
+                    <div class="col-xl-5 col-lg-5">
+                        <div class="hero-img">
+                            <img src="assets/img/hero-img.svg" alt="" class="wow fadeInRight"  data-wow-delay=".5s">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= hero-section end ========================= -->
+
+        <!--========================= feature-section start========================= -->
+        <section id="feature" class="feature-section pt-150">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 col-lg-8 mx-auto">
+                        <div class="section-title text-center mb-55">
+                            <h2 class="mb-20 wow fadeInUp" data-wow-delay=".2s">Our Specialties</h2>
+                            <p class="wow fadeInUp" data-wow-delay=".4s">
+                                We provide secure and hassle-free solutions to recover lost wallets, restore access to accounts, and fix stuck crypto transactions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="features-wrapper">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="single-feature text-center mb-30 wow fadeInUp" data-wow-delay=".2s">
+                                <div class="feature-img mb-20">
+                                    <img src="assets/img/wallet.png" alt="Recover Wallet">
+                                </div>
+                                <div class="feature-content">
+                                    <h5>Wallet Recovery</h5>
+                                    <p>Lost access to your crypto wallet? We help you securely recover your lost User ID and password.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="single-feature text-center mb-30 wow fadeInUp" data-wow-delay=".4s">
+                                <div class="feature-img mb-25">
+                                    <img src="assets/img/cryptowallet.png" alt="Fix Transactions">
+                                </div>
+                                <div class="feature-content">
+                                    <h5>Fix Stuck Transactions</h5>
+                                    <p>Stuck or pending transactions? We ensure your crypto moves smoothly and securely.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6">
+                            <div class="single-feature text-center mb-30 wow fadeInUp" data-wow-delay=".6s">
+                                <div class="feature-img mb-20">
+                                    <img src="assets/img/secure.png" alt="Security Assurance">
+                                </div>
+                                <div class="feature-content">
+                                    <h5>Security & Assurance</h5>
+                                    <p>Your crypto assets are safe with us. We use cutting-edge security measures for recovery and transactions.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+        <!--========================= feature-section end========================= -->
+
+        <!-- ========================= about-section start ========================= -->
+        <section id="about" class="about-section pt-150 pb-20">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="about-img mb-30">
+                            <img src="assets/img/about-img.svg" alt="image" class=" wow fadeInLeft" data-wow-delay=".4s">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="about-content mb-30">
+                            <div class="section-title mb-40">
+                                <h2 class="wow fadeInUp" data-wow-delay=".2s">About Us</h2>
+                            </div>
+                            <p class="mb-15 wow fadeInUp" data-wow-delay=".4s">
+                                At <strong>TrustKey Recovery</strong>, we specialize in helping individuals and businesses recover lost cryptocurrency assets. Whether you've lost access to your wallet, forgotten your credentials, or experienced a stuck or failed transaction, our experts are here to assist you.
+                            </p>
+                            <p class="mb-35 wow fadeInUp" data-wow-delay=".6s">
+                                With years of experience in blockchain security and digital asset recovery, we use advanced technology and proven strategies to retrieve your funds safely and efficiently. Our mission is to restore financial control to our clients by providing a seamless, transparent, and secure recovery process.
+                            </p>
+                            <a href="#" class="theme-btn theme-btn-2 wow fadeInRight" data-wow-delay=".8s">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= about-section end ========================= -->
+        <!-- ========================= video-section start ========================= -->
+<section id="video" class="video-section pt-150 pb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 col-lg-9 col-md-10 mx-auto">
+                <div class="section-title text-center mb-55">
+                    <h2 class="mb-20 wow fadeInUp" data-wow-delay=".2s">See How We Recover Your Crypto</h2>
+                    <p class="wow fadeInUp" data-wow-delay=".4s">
+                        Watch our step-by-step guide to understanding the crypto recovery process and how we help victims get their funds back.
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row justify-content-center">
+            <div class="col-xl-10 col-lg-12">
+                <div class="video-wrapper wow fadeInUp" data-wow-delay=".6s" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 15px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);">
+                    <iframe 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
+                        src="https://www.youtube.com/embed/psqZspvJpkg?si=J9u_YpKoJBWWtYo1" 
+                        title="TrustKey Recovery Process" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Optional: Video highlights -->
+        <div class="row mt-60">
+            <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="video-feature text-center wow fadeInUp" data-wow-delay=".2s">
+                    <i class="lni lni-play" style="font-size: 40px; color: #4a9eff; margin-bottom: 15px;"></i>
+                    <h5>Real Recovery Cases</h5>
+                    <p>See actual success stories</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="video-feature text-center wow fadeInUp" data-wow-delay=".4s">
+                    <i class="lni lni-users" style="font-size: 40px; color: #4a9eff; margin-bottom: 15px;"></i>
+                    <h5>Expert Insights</h5>
+                    <p>Learn from our specialists</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="video-feature text-center wow fadeInUp" data-wow-delay=".6s">
+                    <i class="lni lni-shield" style="font-size: 40px; color: #4a9eff; margin-bottom: 15px;"></i>
+                    <h5>Security Process</h5>
+                    <p>How we protect your data</p>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6">
+                <div class="video-feature text-center wow fadeInUp" data-wow-delay=".8s">
+                    <i class="lni lni-timer" style="font-size: 40px; color: #4a9eff; margin-bottom: 15px;"></i>
+                    <h5>Quick Overview</h5>
+                    <p>5-minute walkthrough</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ========================= video-section end ========================= -->
+
+        <!-- ========================= service-section start ========================= -->
+<section id="service" class="service-section pt-150 pb-120">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-7 col-lg-8 col-md-10 mx-auto">
+                <div class="section-title text-center mb-55">
+                    <h2 class="mb-20 wow fadeInDown" data-wow-delay=".2s">Our Crypto Recovery Services</h2>
+                    <p class="wow fadeInUp" data-wow-delay=".4s">
+                        We specialize in helping individuals and businesses recover lost or stolen cryptocurrencies. 
+                        Our expert team utilizes advanced technology and strategic methods to maximize recovery chances.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <!-- Asset Tracing -->
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single-service wow fadeInUp" data-wow-delay=".2s">
+                    <div class="service-icon mb-30">
+                        <i class="lni lni-search-alt"></i>
+                    </div>
+                    <h4>Asset Tracing</h4>
+                    <p>We use blockchain analytics and investigative techniques to track lost or stolen cryptocurrency assets.</p>
+                </div>
+            </div>
+            <!-- Fraud Investigation -->
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single-service wow fadeInUp" data-wow-delay=".4s">
+                    <div class="service-icon mb-30">
+                        <i class="lni lni-shield"></i>
+                    </div>
+                    <h4>Fraud Investigation</h4>
+                    <p>Our team analyzes fraudulent activities, helping victims of scams and hacking incidents recover their funds.</p>
+                </div>
+            </div>
+            <!-- Wallet Recovery -->
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single-service wow fadeInUp" data-wow-delay=".6s">
+                    <div class="service-icon mb-30">
+                        <i class="lni lni-lock"></i>
+                    </div>
+                    <h4>Wallet Recovery</h4>
+                    <p>Lost access to your crypto wallet? We provide expert solutions to restore wallets with forgotten passwords or seed phrases.</p>
+                </div>
+            </div>
+            <!-- Exchange Dispute Resolution -->
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single-service wow fadeInUp" data-wow-delay=".2s">
+                    <div class="service-icon mb-30">
+                        <i class="lni lni-customer"></i>
+                    </div>
+                    <h4>Exchange Dispute Resolution</h4>
+                    <p>If an exchange is withholding your funds, we assist in resolving disputes and negotiating fund release.</p>
+                </div>
+            </div>
+            <!-- Legal Assistance -->
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single-service wow fadeInUp" data-wow-delay=".4s">
+                    <div class="service-icon mb-30">
+                        <i class="lni lni-briefcase"></i>
+                    </div>
+                    <h4>Legal Assistance</h4>
+                    <p>Our legal partners provide expert guidance and support for regulatory compliance and fund recovery cases.</p>
+                </div>
+            </div>
+            <!-- Investment Scam Recovery -->
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single-service wow fadeInUp" data-wow-delay=".6s">
+                    <div class="service-icon mb-30">
+                        <i class="lni lni-warning"></i>
+                    </div>
+                    <h4>Investment Scam Recovery</h4>
+                    <p>Have you been scammed in a fraudulent crypto scheme? We specialize in recovering funds from Ponzi and phishing scams.</p>
+                </div>
+            </div>
+            <!-- Phishing Attack Recovery -->
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single-service wow fadeInUp" data-wow-delay=".2s">
+                    <div class="service-icon mb-30">
+                        <i class="lni lni-protection"></i>
+                    </div>
+                    <h4>Phishing Attack Recovery</h4>
+                    <p>We help recover stolen funds from phishing attacks by tracing transactions and securing compromised accounts.</p>
+                </div>
+            </div>
+            <!-- Ransomware Attack Recovery -->
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single-service wow fadeInUp" data-wow-delay=".4s">
+                    <div class="service-icon mb-30">
+                        <i class="lni lni-bug"></i>
+                    </div>
+                    <h4>Hack/Ransomware Attack Recovery</h4>
+                    <p>Our cybersecurity team assists in mitigating ransomware attacks and retrieving locked cryptocurrency assets.</p>
+                </div>
+            </div>
+            <!-- Stolen Funds Investigation -->
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single-service wow fadeInUp" data-wow-delay=".6s">
+                    <div class="service-icon mb-30">
+                        <i class="lni lni-target"></i>
+                    </div>
+                    <h4>Stolen Funds Investigation</h4>
+                    <p>We conduct thorough investigations into stolen funds, collaborating with law enforcement agencies where necessary.</p>
+                </div>
+            </div>
+                               <!-- Scam via Credit/Debit Card -->
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="single-service wow fadeInUp" data-wow-delay=".2s">
+                            <div class="service-icon mb-30">
+                                <i class="lni lni-credit-cards"></i>
+                            </div>
+                            <h4>Scam via Credit/Debit Card</h4>
+                            <p>
+                                Chargebacks and dispute support for unauthorized card transactions.
+                            </p>
+                        </div>
+                    </div>
+            <!-- Ponzi Scheme Recovery -->
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single-service wow fadeInUp" data-wow-delay=".4s">
+                    <div class="service-icon mb-30">
+                        <i class="lni lni-spinner"></i>
+                    </div>
+                    <h4>Ponzi Scheme Recovery</h4>
+                    <p>We assist victims of Ponzi schemes in recovering funds through forensic analysis and legal measures.</p>
+                </div>
+            </div>
+            <!-- Crypto Trading Scam Recovery -->
+            <div class="col-xl-4 col-lg-4 col-md-6">
+                <div class="single-service wow fadeInUp" data-wow-delay=".6s">
+                    <div class="service-icon mb-30">
+                        <i class="lni lni-lineicons"></i>
+                    </div>
+                    <h4>Crypto Trading  & Gift Card Scam Recovery</h4>
+                    <p>Lost funds to fake trading platforms? We investigate and help recover your assets and fraudulent gift card transactions. .</p>
+                </div>
+            </div>
+        </div>
+    </div>
+                    <!-- What We CAN and CANNOT Do -->
+                <div class="row">
+                    <div class="col-lg-6 mb-30">
+                        <div class="success-box wow fadeInLeft" data-wow-delay=".4s" style="background: rgba(76, 175, 80, 0.1); border-left: 4px solid #4caf50; padding: 25px; border-radius: 10px; height: 100%;">
+                            <h4 style="color: #4caf50; margin-bottom: 20px;">✓ What We CAN Recover</h4>
+                            <ul style="list-style: none; padding: 0;">
+                                <li style="margin-bottom: 12px;">→ Funds on compromised exchanges</li>
+                                <li style="margin-bottom: 12px;">→ Locked accounts with proper ID</li>
+                                <li style="margin-bottom: 12px;">→ Traceable scam transactions</li>
+                                <li style="margin-bottom: 12px;">→ Disputed exchange withdrawals</li>
+                                <li style="margin-bottom: 12px;">→ Partial seed phrase recovery</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+</section>
+
+
+        
+        <!-- ========================= service-section end ========================= -->
+
+        <!-- ========================= roadmap-section start ========================= -->
+        <section id="pathway" class="roadmap-section pt-100 pb-70 img-bg" style="background-image: url(assets/img/common-bg.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-7 col-md-9 mx-auto">
+                        <div class="section-title text-center mb-55">
+                            <h2 class="text-white mb-20 wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Steps to Recovery</h2>
+                            <p class="text-white wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;"> Follow our structured recovery process to retrieve lost or stolen digital assets efficiently and securely.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="roadmap-wrapper justify-content-center">
+                    <div class="roadmap-item">
+                        <span class="circle"></span>
+                        <span>Step 1</span>
+                        <p>Quickly report the loss and the provide case details.</p>
+                    </div>
+                    <div class="roadmap-item">
+                        <span class="circle"></span>
+                        <span>Step 2</span>
+                        <p>We analyze transactions to trace lost assets.</p>
+                    </div>
+                    <div class="roadmap-item">
+                        <span class="circle"></span>
+                        <span>Step 3</span>
+                        <p>Legal experts assist in filing necessary recovery actions.</p>
+                    </div>
+                    <div class="roadmap-item">
+                        <span class="circle"></span>
+                        <span>Step 4</span>
+                        <p>We negotiate with involved platforms and exchanges.</p>
+                    </div>
+                    <div class="roadmap-item">
+                        <span class="circle"></span>
+                        <span>Step 5</span>
+                        <p>Funds are recovered and secured for future safety.</p>
+                    </div>
+                </div>
+            </div><br><br><br>
+            
+            
+                <div class="container" style="colo">
+        <div class="row">
+            <div class="col-xl-6 col-lg-7 col-md-9 mx-auto">
+                <div class="section-title text-center mb-55">
+                    <h2 class="text-white mb-20 wow fadeInUp" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">Success Stories from Our Clients</h2>
+                    <p class="text-white wow fadeInUp" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">Read real-life experiences of individuals and businesses who successfully recovered their lost crypto assets with our expert assistance.</p>
+                </div>
+            </div>
+        </div>
+<div class="testimonial-chat">
+    <div class="bubble">
+        <p>"A hacker took over my exchange account and withdrew my funds. TrustKey Recovery helped retrieve my stolen crypto!"</p>
+        <h5>- Emma L.</h5>
+    </div>
+    <div class="bubble">
+            <p>"I fell for an investment scam that promised high returns. Thanks to TrustKey Recovery, I got back a significant portion of my funds."</p>
+            <h5>- James R.</h5>
+    </div>
+        <div class="bubble">
+            <p>"After a phishing attack drained my crypto wallet, I thought my funds were gone forever. TrustKey Recovery helped me trace and recover them."</p>
+            <h5>- Olivia M.</h5>
+    </div>
+        <div class="bubble">
+            <p>"A fraudulent exchange blocked my withdrawal requests. TrustKey Recovery successfully negotiated my fund release!"</p>
+            <h5>- Michael W.</h5>
+    </div>
+        <div class="bubble">
+            <p>"My business fell victim to a ransomware attack. TrustKey Recovery managed to recover our encrypted crypto assets."</p>
+            <h5>- Daniel K.</h5>
+    </div>
+        <div class="bubble">
+            <p>"I was tricked into sending Bitcoin for a fake online purchase. TrustKey Recovery tracked the transaction and helped me get my money back."</p>
+            <h5>- David S.</h5>
+    </div>
+        <div class="bubble">
+        <p>"Scammers took my crypto through a fake giveaway. TrustKey Recovery helped identify the fraudsters and reclaim my funds."</p>
+        <h5>- Lucas B.</h5>
+    </div>
+        <div class="bubble">
+            <p>"I lost a significant amount to a gift card scam. TrustKey Recovery guided me through the steps to recover my lost funds."</p>
+            <h5>- Isabella N.</h5>
+    </div>
+        <div class="bubble">
+            <p>"I was skeptical at first, but TrustKey Recovery proved to be legit. They helped me recover my funds from a shady broker."</p>
+            <h5>- Henry P.</h5>
+</div>
+
+        </section>
+        <!-- ========================= roadmap-section end ========================= -->
+        <!-- ========================= PRICING SECTION (Add AFTER success rates section) ========================= -->
+
+        <!-- ========================= grows-section start ========================= -->
+        <section class="grows-section pt-150">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="grows-img mb-30">
+                            <img src="assets/img/trustkey.webp" alt="" class="wow fadeInLeft" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInLeft;">
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="grows-content-wrapper mb-30">
+                            <h2 class="mb-35 wow fadeInDown" data-wow-delay=".2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInDown;">Comprehensive Asset Recovery Solutions</h2>
+                            <p class="mb-35 wow fadeInLeft" data-wow-delay=".4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">We provide expert guidance through a structured recovery process, working closely with law enforcement and relevant authorities to enhance the likelihood of reclaiming lost assets. Whether dealing with financial holdings, properties, or other valuables, our objective dispute analysis and strategic communication with all involved parties ensure a tailored recovery plan that maximizes success.</p>
+
+                            <p class="mb-35 wow fadeInLeft" data-wow-delay=".6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">Our services extend to individuals and organizations impacted by asset losses due to fraudulent schemes, investment scams, or financial misconduct. With a specialized approach across various industries and regions, we are committed to delivering effective recovery solutions, helping clients regain control of their lost assets efficiently and securely.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= grows-section end ========================= -->
+
+        <!-- ========================= countdown-section start ========================= -->
+        <section id="faq" class="faq-section pt-70 pb-70 img-bg" style="background-image: url(assets/img/common-bg.jpg);">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xl-8 col-lg-10 text-center">
+                        <div class="section-title mb-55">
+                            <h2 class="text-white wow fadeInUp" data-wow-delay=".2s">Frequently Asked Questions</h2>
+                            <p class="text-white wow fadeInUp" data-wow-delay=".4s">Get answers to common concerns about cryptocurrency recovery.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xl-10 col-lg-12 mx-auto">
+                        <div class="accordion" id="faqAccordion">
+                            <div class="faq-item wow fadeInUp" data-wow-delay=".2s">
+                                <h3 class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq1">Can lost or stolen cryptocurrency be recovered?</h3>
+                                <div id="faq1" class="collapse show" data-bs-parent="#faqAccordion">
+                                    <p>Yes, some lost or stolen cryptocurrency can be recovered through blockchain forensics, legal action, and cooperation with exchanges. Success depends on the case specifics.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item wow fadeInUp" data-wow-delay=".4s">
+                                <h3 class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq2">What should I do immediately after realizing my crypto is lost?</h3>
+                                <div id="faq2" class="collapse" data-bs-parent="#faqAccordion">
+                                    <p>Document all transaction details, report the incident to authorities, and seek professional crypto recovery assistance as soon as possible.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item wow fadeInUp" data-wow-delay=".6s">
+                                <h3 class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq3">How does the crypto recovery process work?</h3>
+                                <div id="faq3" class="collapse" data-bs-parent="#faqAccordion">
+                                    <p>Crypto recovery involves tracing transactions on the blockchain, working with exchanges to track wallets, and sometimes pursuing legal options.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item wow fadeInUp" data-wow-delay=".8s">
+                                <h3 class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq4">Are there legal channels for recovering lost crypto?</h3>
+                                <div id="faq4" class="collapse" data-bs-parent="#faqAccordion">
+                                    <p>Yes, legal avenues such as regulatory reports, law enforcement actions, and lawsuits against fraudulent parties can be pursued.</p>
+                                </div>
+                            </div>
+                            <div class="faq-item wow fadeInUp" data-wow-delay="1s">
+                                <h3 class="faq-question" data-bs-toggle="collapse" data-bs-target="#faq5">Is crypto recovery guaranteed?</h3>
+                                <div id="faq5" class="collapse" data-bs-parent="#faqAccordion">
+                                    <p>With the help of modern recovery tools, crypto recovery is mostl guaranteed, as expert assistance increases the chances of asset retrieval through strategic methods.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- ========================= countdown-section end ========================= -->
+
+        <!-- ========================= contact-section start ========================= -->
+        <section id="contact" class="contact-section pt-120 pb-105">
+            <div class="container">
+                <div class="row align-items-end">
+                    <div class="col-xl-12">
+                        <div class="contact-wrapper mb-30">
+                            <h2 class="mb-20 wow fadeInDown" data-wow-delay=".2s">Cotact With Us</h2>
+                            <p class="mb-55 wow fadeInUp" data-wow-delay=".4s">Reach out to us today.</p>
+<form id="contact-form" class="contact-form">
+    <div class="row">
+        <!-- Name Field -->
+        <div class="col-lg-6 col-md-6">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+        </div>
+
+        <!-- Email Field -->
+        <div class="col-lg-6 col-md-6">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+        </div>
+
+        <!-- Phone Field -->
+        <div class="col-lg-6 col-md-6">
+            <label for="phone">Phone</label>
+            <input type="tel" id="phone" name="phone" placeholder="Your Phone" required>
+        </div>
+
+        <!-- Subject Field -->
+        <div class="col-lg-6 col-md-6">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+        </div>
+
+        <!-- Message Field -->
+        <div class="col-lg-12">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" placeholder="Your Message" required></textarea>
+        </div>
+    </div>
+
+    <!-- Submit Button -->
+    <button type="submit" class="theme-btn theme-btn-2">
+        <span id="button-text">SEND MESSAGE</span>
+    </button>
+</form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ========================= contact-section end ========================= -->
+
+        <!-- ========================= footer start ========================= -->
+        <footer class="footer pt-100 img-bg" style="background-image: url(assets/img/common-bg.jpg)">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-6">
+                        <div class="footer-widget mb-60 wow fadeInLeft" data-wow-delay=".2s">
+                            <a class="navbar-brand" href="index.html">
+                                <span style="font-family: 'Orbitron', sans-serif; font-size: 28px; font-weight: 700; color: #fff;">TrustKey</span>
+                                <span style="font-family: 'Rajdhani', sans-serif; font-size: 28px; font-weight: 600; color: #fff;">Recovery</span>
+                            </a> <br> <br>                           
+                            <p class="mb-30">Lost access to your crypto wallet or stuck with a pending transaction? We provide the simplest and most effective solutions to recover your User ID, password, and lost or stuck transactions.</p>
+                            <div class="footer-social-links">
+                                <ul>
+                                    <li><a href="https://youtube.com/@trustkeyrecovery?si=jv0YaDl_bGNxTYnN"><i class="lni lni-youtube"></i></a></li>
+                                    <li><a href="http://wa.me/19199123279"><i class="lni lni-whatsapp"></i></a></li>
+                                    <li><a href="https://t.me/cryptorecoveyspecialist"><i class="lni lni-telegram-original"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-2 col-md-6">
+                        <div class="footer-widget mb-60 wow fadeInUp" data-wow-delay=".4s">
+                            <h4>Company</h4>
+                            <ul class="footer-links">
+                                    <li class="nav-item">
+                                        <a class="page-scroll active" href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#about">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#service">Service</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#faq">FAQ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#contact">Contact</a>
+                                    </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6">
+                        <div class="footer-widget mb-60 wow fadeInRight" data-wow-delay=".8s">
+                            <h4 style="color: #fff;">Contact Us</h4>
+                            <ul style="color: #fff;">
+                                <li class="mb-30">
+                                    <p>Phone Number: <br>
+                                        <a href="tel:+19297657809" style="color: #fff; text-decoration: none;">+1 (929) 765-7809</a>
+                                    </p>
+                                </li>
+                                <li class="mb-30">
+                                    <p>Email: <br>
+                                        <a href="mailto:contact@trustkeyrecovery.net" style="color: #fff; text-decoration: none;">support@trustkeyrecovery.net</a>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="copyright-area">
+                    <p class="mb-0 text-white text-center">Copyright © 2010-2025 TrustKey Recovery All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- ========================= footer end ========================= -->
+
+
+
+<!-- Start of LiveChat (www.livechat.com) code -->
+<script>
+    window.__lc = window.__lc || {};
+    window.__lc.license = 19360429;
+    window.__lc.integration_name = "manual_onboarding";
+    window.__lc.product_name = "livechat";
+    ;(function(n,t,c){function i(n){return e._h?e._h.apply(null,n):e._q.push(n)}var e={_q:[],_h:null,_v:"2.0",on:function(){i(["on",c.call(arguments)])},once:function(){i(["once",c.call(arguments)])},off:function(){i(["off",c.call(arguments)])},get:function(){if(!e._h)throw new Error("[LiveChatWidget] You can't use getters before load.");return i(["get",c.call(arguments)])},call:function(){i(["call",c.call(arguments)])},init:function(){var n=t.createElement("script");n.async=!0,n.type="text/javascript",n.src="https://cdn.livechatinc.com/tracking.js",t.head.appendChild(n)}};!n.__lc.asyncInit&&e.init(),n.LiveChatWidget=n.LiveChatWidget||e}(window,document,[].slice))
+</script>
+<noscript><a href="https://www.livechat.com/chat-with/19360429/" rel="nofollow">Chat with us</a>, powered by <a href="https://www.livechat.com/?welcome" rel="noopener nofollow" target="_blank">LiveChat</a></noscript>
+<!-- End of LiveChat code -->
+
+
+
+
+
+
+		<!-- ========================= JS here ========================= -->
+		<script src="assets/js/bootstrap.bundle-5.0.0.alpha-1-min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+        <script src="assets/js/contact-form.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+		<script src="assets/js/main.js"></script>
+    </body>
+</html>
